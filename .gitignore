@@ -3,4 +3,3 @@
 .idea/**/*
 docker/data
 docker/nginx/log
-legacy/db.config.php
