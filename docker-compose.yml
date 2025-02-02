@@ -3,7 +3,7 @@ networks:
         driver: bridge
         
 services:
-    phpfpm:
+    php53:
         build: ./docker/php
         volumes:
             - ./:/var/www/html
@@ -22,7 +22,7 @@ services:
         networks:
             - app-network
         volumes:
-            - ./:/var/www/html/
+            - ./:/var/www/html
             - ./docker/nginx/conf.d:/etc/nginx/conf.d
             - ./docker/nginx/log/nginx:/var/log/nginx
     database:

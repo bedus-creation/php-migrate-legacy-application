@@ -1,6 +1,5 @@
 <?
 $title = "Hello from PHP 5.3";
-
 ?>
 
 <? echo $title; ?>

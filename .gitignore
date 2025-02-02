@@ -3,4 +3,4 @@
 .idea/**/*
 docker/data
 docker/nginx/log
-db.config.php
+legacy/db.config.php
